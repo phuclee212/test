@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-bb2c4dfdedde4a61b7d8854841d17691" version="4.6.0">
+  <folder name="Strategy" id="id-e4798634a20e448fa22c222ac5fe827a" type="strategy"/>
+  <folder name="Business" id="id-7d6bee6dd91d467188984766a4be853d" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-69c10e158c594272bd24a51f251c2033"/>
+    <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-a34425d139a44ddf9549617520f5cfd9"/>
+    <element xsi:type="archimate:BusinessActor" name="Business Actor" id="id-a5d096bc773f40679804d2ee49523fe4"/>
+  </folder>
+  <folder name="Application" id="id-9c1cc291499b4e8ba8e3128f5b9f2020" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-4fbfa92cb9bf442fab7fa8f44897c5d9" type="technology"/>
+  <folder name="Motivation" id="id-4e866fb9aba64c4dbc8de584e1c6d392" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-4f073a5cb12b41e4b236a2a830aa3690" type="implementation_migration"/>
+  <folder name="Other" id="id-0beacafe2dc84c0186b8087054394ad0" type="other"/>
+  <folder name="Relations" id="id-01c5f6263dbb43a4a81d5762865442ae" type="relations"/>
+  <folder name="Views" id="id-bf81941b9bad4763bc8542431d408a15" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-df891e0743064e8299b5e6464703cff8">
+      <child xsi:type="archimate:DiagramObject" id="id-289313da468e4a81b990c73dba46c467" archimateElement="id-69c10e158c594272bd24a51f251c2033">
+        <bounds x="780" y="246" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ca200be43b794f8594cd863f5d359add" archimateElement="id-a34425d139a44ddf9549617520f5cfd9">
+        <bounds x="791" y="449" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4b928b82910e4d9e9051543ca76034c0" archimateElement="id-a5d096bc773f40679804d2ee49523fe4">
+        <bounds x="444" y="318" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
